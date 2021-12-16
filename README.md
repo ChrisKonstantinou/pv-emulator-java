@@ -3,7 +3,7 @@
 
 This is a sample Main window using javax.swing
 
-```aidl
+```
 package com.company;
 import javax.swing.*;
 

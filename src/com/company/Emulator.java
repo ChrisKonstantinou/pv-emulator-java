@@ -7,16 +7,13 @@ class Main
 {
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame();
-        JPanel panel = new JPanel();
-
-        panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-        panel.setLayout(new GridLayout(0, 1));
-
-        frame.add(panel, BorderLayout.CENTER);
+        JFrame frame = new JFrame(); //creates a frame
+        frame.setTitle("PV Emulator v2.0"); // Set the frame title
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("PV emulator V2.0");
-        frame.pack();
+        frame.setSize(800, 600); // Set the frame dimensions
         frame.setVisible(true);
+
+        ImageIcon image = new ImageIcon("logo/logo.jpg");
+        frame.setIconImage(image.getImage());
     }
 }

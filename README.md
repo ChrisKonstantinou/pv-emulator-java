@@ -1,5 +1,5 @@
-# pv-emulator-java
- A pv emulator written in java
+# PV Emulator v2.0
+ A simple pv emulator written in java
 
 This is a sample Main window using javax.swing
 
